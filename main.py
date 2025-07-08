@@ -1,6 +1,6 @@
-def main():
-    print("Hello from python-service!")
 
+from fastapi import FastAPI
+import uvicorn
+import httpx
 
-if __name__ == "__main__":
-    main()
+app = FastAPI()
