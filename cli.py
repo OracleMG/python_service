@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""A simple CLI tool to fetch weather information for a given location using the wttr.in service. 
-"""
+"""A simple CLI tool to fetch weather information for a given location using the wttr.in service."""
 import sys
 import requests
 
