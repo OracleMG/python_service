@@ -3,10 +3,11 @@ def add(a, b):
         raise TypeError("Both arguments must be int, float, or str")
     if type(a) is not type(b):
         raise TypeError("Both arguments must be of the same type")
-    return (a + b)
-    
+    return a + b
+
+
 if __name__ == "__main__":
     a = "cat"
     b = 10
-    
+
     add(a, b)

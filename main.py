@@ -3,6 +3,7 @@
 information for a given location using the
 wttr.in service.
 """
+
 from fastapi import FastAPI
 import uvicorn
 import httpx
