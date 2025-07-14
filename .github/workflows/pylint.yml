@@ -22,4 +22,5 @@ jobs:
       run: |
         pylint $(git ls-files '*.py')
     - name: run ruff
-
+      run:
+        ruff check .
